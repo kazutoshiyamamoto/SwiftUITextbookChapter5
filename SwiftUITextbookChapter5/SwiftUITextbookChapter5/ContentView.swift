@@ -10,8 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-            Text(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            let num = Int.random(in: 0...100)
+            print(num)
+        }) {
+            Text("Random Button")
+                .font(.largeTitle)
+                .frame(width: 280.0, height: 60.0, alignment: .center)
+                .foregroundColor(Color.white)
+                .background(Color.blue)
+                .cornerRadius(15.0, antialiased: true)
         }
     }
 }
