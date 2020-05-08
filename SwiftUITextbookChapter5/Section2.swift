@@ -19,6 +19,17 @@ struct Section2: View {
             }
             .fixedSize()
             .padding(50.0)
+            
+            
+            if iLike {
+                Image(systemName: "heart.fill")
+                    .font(.system(size: 80.0))
+                    .foregroundColor(.red)
+            } else {
+                Image(systemName: "heart.slash")
+                    .font(.system(size: 80.0))
+                    .foregroundColor(.gray)
+            }
         }
     }
 }
