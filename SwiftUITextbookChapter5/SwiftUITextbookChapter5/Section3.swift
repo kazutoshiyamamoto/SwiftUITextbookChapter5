@@ -9,10 +9,13 @@
 import SwiftUI
 
 struct Section3: View {
+    @State var kosu: Int = 0
+    
     var body: some View {
-        Stepper(value: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant(4)/*@END_MENU_TOKEN@*/, in: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Range@*/1...10/*@END_MENU_TOKEN@*/) {
-            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label@*/Text("Stepper")/*@END_MENU_TOKEN@*/
+        Stepper(value: $kosu, in: 0...10) {
+            Text("個数: \(self.kosu)")
         }
+        .frame(width: 200.0)
     }
 }
 
