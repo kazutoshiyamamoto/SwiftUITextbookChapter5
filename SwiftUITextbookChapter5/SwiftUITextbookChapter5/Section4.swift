@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct Section4: View {
+    @State var volume: Float = 0.0
+    
     var body: some View {
-        Slider(value: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant(10)/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("\(volume)").frame(width: 100.0)
+            HStack {
+                Image(systemName: "speaker.slash").imageScale(.large)
+                Slider(value: $volume)
+                Image(systemName: "speaker.3").imageScale(.large)
+            }
+            .frame(width: 200.0)
+        }
     }
 }
 
