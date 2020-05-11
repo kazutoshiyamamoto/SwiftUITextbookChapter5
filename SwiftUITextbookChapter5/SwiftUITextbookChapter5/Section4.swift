@@ -9,11 +9,11 @@
 import SwiftUI
 
 struct Section4: View {
-    @State var volume: Float = 0.0
+    @State var volume: Double = 0.0
     
     var body: some View {
         HStack {
-            Text("\(volume)").frame(width: 100.0)
+            Text("\(format(volume))").frame(width: 100.0)
             HStack {
                 Image(systemName: "speaker.slash").imageScale(.large)
                 Slider(value: $volume)
@@ -22,6 +22,11 @@ struct Section4: View {
             .frame(width: 200.0)
         }
     }
+}
+
+func format(_ num: Double) -> String {
+    let result = String(round(num*100)/100)
+    return result
 }
 
 struct Section4_Previews: PreviewProvider {
