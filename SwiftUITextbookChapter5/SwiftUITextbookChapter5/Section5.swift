@@ -9,11 +9,17 @@
 import SwiftUI
 
 struct Section5: View {
+    @State private var selectColor = 0
+    
     var body: some View {
-        Picker(selection: /*@START_MENU_TOKEN@*/.constant(1)/*@END_MENU_TOKEN@*/, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
-            /*@START_MENU_TOKEN@*/Text("1").tag(1)/*@END_MENU_TOKEN@*/
-            /*@START_MENU_TOKEN@*/Text("2").tag(2)/*@END_MENU_TOKEN@*/
+        VStack {
+            Picker(selection: $selectColor, label: Text("Color")) {
+                Text("Red").tag(0)
+                Text("Green").tag(1)
+                Text("Green").tag(2)
+            }
         }
+        .padding()
     }
 }
 
