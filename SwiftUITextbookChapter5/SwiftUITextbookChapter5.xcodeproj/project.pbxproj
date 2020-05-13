@@ -17,6 +17,7 @@
 		FDB5F43524668F3B008709AE /* Section3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5F43424668F3B008709AE /* Section3.swift */; };
 		FDB5F4372468EDEE008709AE /* Section4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5F4362468EDEE008709AE /* Section4.swift */; };
 		FDB5F439246A4B8A008709AE /* Section5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5F438246A4B8A008709AE /* Section5.swift */; };
+		FDB5F43B246BC2DC008709AE /* Section6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5F43A246BC2DC008709AE /* Section6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FDB5F43424668F3B008709AE /* Section3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section3.swift; sourceTree = "<group>"; };
 		FDB5F4362468EDEE008709AE /* Section4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section4.swift; sourceTree = "<group>"; };
 		FDB5F438246A4B8A008709AE /* Section5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section5.swift; sourceTree = "<group>"; };
+		FDB5F43A246BC2DC008709AE /* Section6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				FDB5F43424668F3B008709AE /* Section3.swift */,
 				FDB5F4362468EDEE008709AE /* Section4.swift */,
 				FDB5F438246A4B8A008709AE /* Section5.swift */,
+				FDB5F43A246BC2DC008709AE /* Section6.swift */,
 				FDB5F4242463EB49008709AE /* Assets.xcassets */,
 				FDB5F4292463EB49008709AE /* LaunchScreen.storyboard */,
 				FDB5F42C2463EB49008709AE /* Info.plist */,
@@ -162,6 +165,7 @@
 				FDB5F43324654640008709AE /* Section2.swift in Sources */,
 				FDB5F41F2463EB43008709AE /* AppDelegate.swift in Sources */,
 				FDB5F439246A4B8A008709AE /* Section5.swift in Sources */,
+				FDB5F43B246BC2DC008709AE /* Section6.swift in Sources */,
 				FDB5F4212463EB43008709AE /* SceneDelegate.swift in Sources */,
 				FDB5F4372468EDEE008709AE /* Section4.swift in Sources */,
 				FDB5F4232463EB43008709AE /* ContentView.swift in Sources */,
