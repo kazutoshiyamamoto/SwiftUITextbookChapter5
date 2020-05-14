@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD78A80B246D36D2004DA02D /* Section7.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78A80A246D36D2004DA02D /* Section7.swift */; };
 		FDB5F41F2463EB43008709AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5F41E2463EB42008709AE /* AppDelegate.swift */; };
 		FDB5F4212463EB43008709AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5F4202463EB43008709AE /* SceneDelegate.swift */; };
 		FDB5F4232463EB43008709AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5F4222463EB43008709AE /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD78A80A246D36D2004DA02D /* Section7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section7.swift; sourceTree = "<group>"; };
 		FDB5F41B2463EB42008709AE /* SwiftUITextbookChapter5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITextbookChapter5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB5F41E2463EB42008709AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB5F4202463EB43008709AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				FDB5F4362468EDEE008709AE /* Section4.swift */,
 				FDB5F438246A4B8A008709AE /* Section5.swift */,
 				FDB5F43A246BC2DC008709AE /* Section6.swift */,
+				FD78A80A246D36D2004DA02D /* Section7.swift */,
 				FDB5F4242463EB49008709AE /* Assets.xcassets */,
 				FDB5F4292463EB49008709AE /* LaunchScreen.storyboard */,
 				FDB5F42C2463EB49008709AE /* Info.plist */,
@@ -168,6 +171,7 @@
 				FDB5F43B246BC2DC008709AE /* Section6.swift in Sources */,
 				FDB5F4212463EB43008709AE /* SceneDelegate.swift in Sources */,
 				FDB5F4372468EDEE008709AE /* Section4.swift in Sources */,
+				FD78A80B246D36D2004DA02D /* Section7.swift in Sources */,
 				FDB5F4232463EB43008709AE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
