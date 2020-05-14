@@ -11,10 +11,20 @@ import SwiftUI
 struct Section7: View {
     @State var theDate = Date()
     
+    var dateformate: DateFormatter {
+        let df = DateFormatter()
+        df.locale = Locale(identifier: "ja_JP")
+        df.dateStyle = .full
+        df.timeStyle = .short
+        return df
+    }
+    
     var body: some View {
         VStack {
-            Text("日時は\(theDate)")
-                .padding()
+            Text(dateformate.string(from: theDate))
+                .font(.headline)
+            Divider()
+            
             DatePicker(selection: $theDate, label: { Text("日時") })
         }
         .padding()
