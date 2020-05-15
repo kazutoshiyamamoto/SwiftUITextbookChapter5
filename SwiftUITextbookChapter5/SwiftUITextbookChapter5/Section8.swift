@@ -12,9 +12,15 @@ struct Section8: View {
     @State var name: String = ""
     
     var body: some View {
-        TextField("お名前は？", text: $name)
-            .textFieldStyle(RoundedBorderTextFieldStyle())
-            .frame(width: 250.0)
+        VStack {
+            TextField("お名前は？", text: $name)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .frame(width: 250.0)
+            
+            if !name.isEmpty {
+                Text("\(name)さん、こんにちは！")
+            }
+        }
     }
 }
 
