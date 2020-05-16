@@ -8,17 +8,23 @@
 
 import SwiftUI
 
+extension UIApplication {
+    func endEditing() {
+        sendAction(
+            #selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil
+        )
+    }
+}
+
 struct Section8: View {
-    @State var name: String = ""
+    @State var kosu: String = ""
+    let tanka: Double = 250.0
+    let tax: Double = 1.1
     
     var body: some View {
-        VStack {
-            TextField("お名前は？", text: $name)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .frame(width: 250.0)
-            
-            if !name.isEmpty {
-                Text("\(name)さん、こんにちは！")
+        ZStack {
+            Color.white.onTapGesture {
+                UIApplication.shared.endEditing()
             }
         }
     }
